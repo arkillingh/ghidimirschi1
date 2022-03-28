@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sistem de gestionare a camioanelor</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="img/oie_uPs62nT8WWpR.jpg" alt="hearer_img" class="img-top" />
+    </div>
+    <div id="title" class="title absolute">
+      <h1>Sisteme de gestionare a camioanelor</h1>
+    </div>
+    <div id="second-title" class="second-title absolute">
+      <h4>Analiza comparativă dintre Fleethand și Locktracker</h4>
+    </div>
+    <div id="content" class="content">
+      <div class="flex-content">
+        <div class="row head">
+          <div class="column caracteristici">
+            <h2>Caracteristici</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Locktracker</h2>
+          </div>
+        </div>
+        <div class="row categorie">
+          <div class="column caracteristici">
+            <div>
+              <h2
+                id="cat1"
+                onclick="underlineText('cat1'); rotateIcon('icon1'); extend('sub1.1'); extend('sub1.2'); extend('sub1.3')"
+              >
+                Tipul de monitorizare (dupa tipul de mape)
+              </h2>
+            </div>
+            <div class="categorie__img">
+              <img
+                class="extend_icon"
+                src="img/Polygon 1.png"
+                alt="extend_icon"
+                id="icon1"
+                onclick="underlineText('cat1'); rotateIcon('icon1'); extend('sub1.1'); extend('sub1.2'); extend('sub1.3')"
+              />
+            </div>
+          </div>
+          <div class="column fleethand">
+            <h2>Caracteristici pentru Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Caracteristici pentru Locktracker</h2>
+          </div>
+        </div>
+        <div id="sub1.1" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>a)Google+Ambuteiaje</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Este prezenta lucreaza ,dar deacum depinde de incarcarea
+              serverului
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>
+              Este prezenta si lucreaza bine , deoarece aici este limitat
+              numarul de camioane
+            </h2>
+          </div>
+        </div>
+        <div id="sub1.2" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>b)OSM</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>Este prezenta si lucreaza bine</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Este si lucreaza bine</h2>
+          </div>
+        </div>
+        <div id="sub1.3" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>c) Restrictii ( tonajul , inaltimea podurilor)</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>Este folosita cind se planifica traseul pentru sofer</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Aici nu este prezenta asa functie</h2>
+          </div>
+        </div>
+        <div class="row categorie">
+          <div class="column caracteristici">
+            <div style="margin-right: 5vw">
+              <h2
+                id="cat2"
+                onclick="underlineText('cat2'); rotateIcon('icon2'); extend('sub2.1'); extend('sub2.2'); extend('sub2.3')"
+              >
+                Punctele de acces
+              </h2>
+            </div>
+            <div class="categorie__img">
+              <img
+                class="extend_icon"
+                src="img/Polygon 1.png"
+                alt="extend_icon"
+                id="icon2"
+                onclick="underlineText('cat2'); rotateIcon('icon2'); extend('sub2.1'); extend('sub2.2'); extend('sub2.3')"
+              />
+            </div>
+          </div>
+          <div class="column fleethand">
+            <h2>Caracteristici pentru Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Caracteristici pentru Locktracker</h2>
+          </div>
+        </div>
+        <div id="sub2.1" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>a)Statii de alimentare</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>Este prezenta si folosita zi de zi</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Este prezenta , plus la toate este indicat si pretul</h2>
+          </div>
+        </div>
+        <div id="sub2.2" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>b)Statii pentru service</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Folosita numai de mecanici , in caz daca s-a intimplat ceva cu
+              camionul sau remorca
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Nu este asa functie</h2>
+          </div>
+        </div>
+        <div id="sub2.3" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>c) Hotel pentru soferi sau parcari cu plata(securizate)</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Hotelele sunt folosite numai in weekend dar parcari securizate in
+              dependeta de marfa
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Nu este asa functie</h2>
+          </div>
+        </div>
+        <div class="row categorie">
+          <div class="column caracteristici">
+            <div>
+              <h2
+                id="cat3"
+                onclick="underlineText('cat3'); rotateIcon('icon3'); extend('sub3.1'); extend('sub3.2')"
+              >
+                Metodele de convorbire cu soferii si cautarea infirmatiei despre
+                ei si camion
+              </h2>
+            </div>
+            <div class="categorie__img">
+              <img
+                class="extend_icon"
+                src="img/Polygon 1.png"
+                alt="extend_icon"
+                id="icon3"
+                onclick="underlineText('cat3'); rotateIcon('icon3'); extend('sub3.1'); extend('sub3.2')"
+              />
+            </div>
+          </div>
+          <div class="column fleethand">
+            <h2>Caracteristici pentru Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Caracteristici pentru Locktracker</h2>
+          </div>
+        </div>
+        <div id="sub3.1" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>a)Convorbirea prin tablete sau telefon de serviciu</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Cu sofer se ia legatura prin apel tefonic\transmiterea informatie
+              pe tableta si poate fi sunat in cazuri exceptionale pe talbeta
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Aici convorbirea poate fi prin telefon sau tableta</h2>
+          </div>
+        </div>
+        <div id="sub3.2" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>b)Cautarea informatie despre sofer si camion</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Putem afla numele,prenumele soferului ,despre camion numarul de
+              inregistrare si VIN codul camionului
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>
+              Putem vedeam numai numarul de inmatriculare a camionul si numarul
+              remorcii
+            </h2>
+          </div>
+        </div>
+        <div class="row categorie">
+          <div class="column caracteristici">
+            <div>
+              <h2
+                id="cat4"
+                onclick="underlineText('cat4'); rotateIcon('icon4'); extend('sub4.1'); extend('sub4.2')"
+              >
+                Meniul de cautare a camioaneleor si numararea drumului parcurs
+                si timpul
+              </h2>
+            </div>
+            <div class="categorie__img">
+              <img
+                class="extend_icon"
+                src="img/Polygon 1.png"
+                alt="extend_icon"
+                id="icon4"
+                onclick="underlineText('cat4'); rotateIcon('icon4'); extend('sub4.1'); extend('sub4.2')"
+              />
+            </div>
+          </div>
+          <div class="column fleethand">
+            <h2>Caracteristici pentru Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Caracteristici pentru Locktracker</h2>
+          </div>
+        </div>
+        <div id="sub4.1" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>a) Crearea grupului de tranport</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Este posibil de creat un grup aparte cu camioanele care lucreaza
+              un singur trecker
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Nu este asa functie, sunt toate la un loc</h2>
+          </div>
+        </div>
+        <div id="sub4.2" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>b) Numararea cursei si timpului</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Aici este prezenta rigla care ne o plasam din punctul A la punctul
+              B si tot odata numara si timpul necesar
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>
+              Tot este prezenta rigla numai ca numara numa durata cursei de la
+              punctul A la B fara timp
+            </h2>
+          </div>
+        </div>
+        <div class="row categorie">
+          <div class="column caracteristici">
+            <div>
+              <h2
+                id="cat5"
+                onclick="underlineText('cat5'); rotateIcon('icon5'); extend('sub5.1'); extend('sub5.2')"
+              >
+                Tipurile de rapoarte care pot fi create
+              </h2>
+            </div>
+            <div class="categorie__img">
+              <img
+                class="extend_icon"
+                src="img/Polygon 1.png"
+                alt="extend_icon"
+                id="icon5"
+                onclick="underlineText('cat5'); rotateIcon('icon5'); extend('sub5.1'); extend('sub5.2')"
+              />
+            </div>
+          </div>
+          <div class="column fleethand">
+            <h2>Caracteristici pentru Fleethand</h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Caracteristici pentru Locktracker</h2>
+          </div>
+        </div>
+        <div id="sub5.1" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>a) Raportul termic al frigiderului</h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Se creeaza raportul termin daca este necesar pentru client.
+              Inainte sau dupa incarcare
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>Nu este disponibila asa functie</h2>
+          </div>
+        </div>
+        <div id="sub5.2" class="row subcategorie hidden">
+          <div class="column caracteristici">
+            <h2>
+              b) raportul pentru cheltuielele in plus (parcari,spalatorii,
+              teste,vacini)
+            </h2>
+          </div>
+          <div class="column fleethand">
+            <h2>
+              Automat nu se face , numai dupa achitarea de catre sofer si
+              prezentarea bonului de palta
+            </h2>
+          </div>
+          <div class="column locktracker">
+            <h2>
+              Automat nu se face , numai dupa achitarea de catre sofer si
+              prezentarea bonului de palta
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="utm-and-vova">
+        <div class="utm">
+          <h2>MINISTERUL EDUCAŢIEI ȘI CERCETĂRII AL REPUBLICII MOLDOVA</h2>
+          <h2>UNIVERSITATEA TEHNICĂ A MOLDOVEI</h2>
+          <h2>FACULTATEA CALCULATOARE INFORMATICĂ ȘI MICROELECTRONICĂ</h2>
+          <h2>DEPARTAMENTUL INFORMATICĂ ȘI INGINERIA SISTEMELOR</h2>
+        </div>
+        <div class="vova">
+          <h2>Student: Ghidirimschi Vladimir, CR-171 FR</h2>
+          <h2>Coordonator: Emilian Gutuleac, dr. hab., prof. univ.</h2>
+        </div>
+      </div>
+      <div class="chisinau">
+        <h3>Chișinău 2022</h3>
+      </div>
+    </div>
+
+    <script src="js/header.js"></script>
+    <script src="js/content.js"></script>
+  </body>
+</html>

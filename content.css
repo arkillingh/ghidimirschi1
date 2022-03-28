@@ -1,0 +1,125 @@
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+
+.flex-content {
+  background-color: rgb(188, 225, 253);
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1.4vw;
+  border-radius: 2vw;
+}
+
+.head div {
+  padding-bottom: 0.6vw;
+  padding-top: 0.6vw;
+}
+
+.head h2 {
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+.head .caracteristici {
+  background-color: rgb(255, 160, 160);
+}
+
+.head .fleethand {
+  background-color: rgb(252, 252, 135);
+}
+
+.head .locktracker {
+  background-color: rgb(201, 255, 125);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+
+.column {
+  width: 32%;
+  border-radius: 0.5vw;
+  text-align: center;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+}
+
+.categorie h2 {
+  font-size: 1.6vw;
+}
+
+.categorie .caracteristici {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(255, 160, 160);
+}
+
+.categorie__img {
+  margin-right: 1vw;
+  margin-top: 0.3vw;
+}
+
+.categorie__img img {
+  width: 1.2vw;
+}
+
+.categorie__img img:hover {
+  cursor: pointer;
+}
+
+.categorie__img img:active {
+  transform: rotate(90deg);
+}
+
+.rotate-img {
+  transform: rotate(90deg);
+}
+
+.subcategorie h2 {
+  font-size: 1.4vw;
+  color: rgb(68, 68, 68);
+}
+
+.categorie .caracteristici h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.categorie .caracteristici h2:active {
+  font-size: 1.5vw;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-size: 1.5vw;
+}
+
+.categorie .fleethand {
+  background-color: rgb(252, 252, 135);
+}
+
+.categorie .locktracker {
+  background-color: rgb(201, 255, 125);
+}
+
+.subcategorie .caracteristici {
+  background-color: rgb(255, 210, 210);
+}
+
+.subcategorie .fleethand {
+  background-color: rgb(255, 255, 193);
+}
+
+.subcategorie .locktracker {
+  background-color: rgb(225, 255, 182);
+}
+
+.hidden {
+  display: none;
+}

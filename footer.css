@@ -1,0 +1,31 @@
+.footer {
+  padding-top: 2vw;
+  width: 100%;
+  background-color: rgb(255, 222, 179);
+  display: flex;
+  flex-direction: column;
+}
+
+.utm-and-vova {
+  display: flex;
+}
+
+.footer h2 {
+  padding-bottom: 0.5vw;
+  font-size: 1.1vw;
+}
+
+.footer h3 {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 1vw;
+}
+
+.utm {
+  width: 50%;
+}
+
+.vova {
+  padding-top: 1.5vw;
+  width: 40%;
+}

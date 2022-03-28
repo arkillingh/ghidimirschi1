@@ -1,0 +1,42 @@
+.absolute {
+  position: absolute;
+}
+
+.img-top {
+  width: 100%;
+}
+
+.title {
+  width: 90vw;
+  padding-left: 5vw;
+  font-size: 2vw;
+  color: rgb(23, 0, 169);
+  text-align: center;
+  top: 22.5vw;
+}
+
+.scroll-title {
+  font-size: 1.4vw;
+  position: fixed;
+  top: 0;
+  padding-bottom: 0.3vw;
+  width: 100vw;
+  background-color: rgb(255, 225, 0);
+}
+
+.second-title {
+  width: 90vw;
+  font-size: 1.9vw;
+  color: rgb(34, 0, 255);
+  text-align: center;
+  top: 27vw;
+  padding-left: 19vw;
+}
+
+.scroll-second-title {
+  position: fixed;
+  top: 3.5vw;
+  width: 100vw;
+  background-color: rgb(255, 225, 0);
+  padding-bottom: 0.3vw;
+}

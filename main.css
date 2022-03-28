@@ -1,0 +1,16 @@
+* {
+  margin: none;
+  padding: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  font-family: Tahoma, Geneva, Verdana, serif;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}

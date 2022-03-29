@@ -22,6 +22,7 @@
   padding-bottom: 0.3vw;
   width: 100vw;
   background-color: rgb(255, 225, 0);
+  z-index: 100;
 }
 
 .second-title {
@@ -39,4 +40,5 @@
   width: 100vw;
   background-color: rgb(255, 225, 0);
   padding-bottom: 0.3vw;
+  z-index: 100;
 }

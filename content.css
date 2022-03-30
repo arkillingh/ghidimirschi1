@@ -91,10 +91,6 @@
   cursor: pointer;
 }
 
-.categorie .caracteristici h2:active {
-  font-size: 1.5vw;
-}
-
 .underlined {
   text-decoration: underline;
   font-size: 1.5vw;
